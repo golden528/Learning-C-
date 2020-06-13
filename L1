@@ -30,4 +30,30 @@ int j= strTmp.Length;
 Console.WriteLine(false & true);  //return ?
 Onsole.WriteLine(false && true);  //return ?
 
+//about null 的 & | 運算
+x = true;
+y = null;
+console.WriteLine($"The result of (x & y) is {x & y}");
+console.WriteLine($"The result of (x | y) is {x | y}");
+
+//byte、int、long、float、double 預設值各為何?
+
+//在C#中，數值可以轉換成bool嗎?
+//在C#中，數值如何轉換成bool?   Convert.ToBoolen  //非0為true
+
+int x,y,z;
+Console.WriteLine($"{x} , {y} , {z}");  //結果為何?
+char a,b;
+Console.WriteLine($"{x} , {b}");  //結果為何?
+bool test;
+Console.WriteLine(test);  //結果為何?
+
+//在C#中，bool可否轉換成數值?
+
+//int i 與 int? i 的差異  
+    Console.WriteLine(int i);
+    Console.WriteLine(int? j);
+    int? i = null;  //正確
+    int i = null;   //報錯
+    可應用於何處?
 
