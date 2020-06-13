@@ -1,0 +1,33 @@
+//Using 的用途
+
+//物件 和 類別 有什麼不同
+
+//private、 protected、 public、internal 的差異
+
+//override、overload 的差異
+
+//甚麼是建構式
+
+//C#中的委託是什麼？事件是不是一種委託？
+
+//在C＃中，string str = null 與 string str = “” 其中的區別為何
+
+//以下程式碼執行完後，i=? j=?
+stringstrTmp = “abcdefg某某某”;
+int i= System.Text.Encoding.Default.GetBytes(strTmp).Length;
+int j= strTmp.Length;
+
+
+//說明物件導向程式語言具有的封裝、繼承、多型
+
+//try{}裡有一個return語句，那麼緊跟在這個try後的finally {}裡的code會不會被執行，什麼時候被執行，在return前還是後?
+
+//DataReader與Dataset有什麼區別？
+
+//C#中 bool 的 true 可以轉成 0 還是 1 ?
+
+//下面有何差異?
+Console.WriteLine(false & true);  //return ?
+Onsole.WriteLine(false && true);  //return ?
+
+
